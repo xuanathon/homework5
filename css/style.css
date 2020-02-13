@@ -226,7 +226,12 @@ header {
         scroll-behavior: auto; /* Removes scroll animation */
     }
 
-    .skip a {
+    #logo {
+        -webkit-animation: none;
+        animation: none;
+    }
+
+    a.skip {
         -webkit-transition: none;
         transition: none;
     }
