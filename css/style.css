@@ -220,3 +220,14 @@ header {
         display: none;
     }
 }
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+
+    .skip a {
+        -webkit-transition: none;
+        transition: none;
+    }
+}
