@@ -80,7 +80,6 @@ Keyframes for animation*/
 
 /* Cards! */
 .pricing {
-
     min-height: 500px;
     display: flex;
     flex-flow: row wrap;
@@ -181,7 +180,7 @@ header {
 @media screen and (min-width: 850px) {
     /* Cards! */
     .card {
-        flex-basis: 225px;
+        flex-basis: 250px;
     }
 
     .card_big {
