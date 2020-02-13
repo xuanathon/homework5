@@ -230,9 +230,4 @@ header {
         -webkit-animation: none;
         animation: none;
     }
-
-    a.skip {
-        -webkit-transition: none;
-        transition: none;
-    }
 }
